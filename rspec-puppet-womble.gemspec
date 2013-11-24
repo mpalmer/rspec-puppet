@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'rspec-puppet-womble'
-  s.version = '0.1.6+womble1'
+  s.version = '0.1.6.womble2'
   s.homepage = 'https://github.com/mpalmer/rspec-puppet'
   s.summary = 'RSpec tests for your Puppet manifests (updated by womble)'
   s.description = "RSpec tests for your Puppet manifests.  This is a forked "+
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.executables = ['rspec-puppet-init']
 
-  s.files = `git ls-files|grep -v "^\."`.split("\n")
+  s.files = `git ls-files|grep -v "^\\."`.split("\n")
 
   s.add_dependency 'rspec'
 
